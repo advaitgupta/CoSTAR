@@ -55,12 +55,12 @@ Object Recoloration
 Outpainting
 Depth Estimation
 Image Deblurring
-Text Extraction from an Image
-Text Replacement within an Image
-Text Removal from an Image
-Text Addition to an Image (Pillow)
-Text Redaction (Black Cover)
-Visual Question Answering on Text
+Text Extraction
+Text Replacement
+Text Removal
+Text Addition
+Text Redaction
+VQuestion Answering based on text
 Keyword Highlighting
 Sentiment Analysis
 Caption Consistency Check
@@ -192,7 +192,6 @@ Before you generate the tree you need to make sure that for every path possible 
         max_tokens=2000
     )
     
-    # Extract and parse the response
     content = response.choices[0].message.content
     if content.startswith("```json"):
         content = content[7:-3]
