@@ -16,6 +16,9 @@ def main(image_path, prompt_text, output_tree="Tree.json", output_image="final_o
         raise FileNotFoundError(f"Image file not found: {image_path}")
     
     img = Image.open(image_path)
+
+    # Replace 'openai_api' with the actual API key for openAI.
+    os.environ['OPENAI_API_KEY'] = 'openai_api'
     
     # Get API key from environment variable
     llm_api_key = os.getenv("OPENAI_API_KEY")
@@ -36,8 +39,8 @@ def main(image_path, prompt_text, output_tree="Tree.json", output_image="final_o
     for key, value in final_graph.items():
         print(f"{key}: {value}")
     
-    # Replace 'your_api_key_here' with your actual API key for StabilityAI in order to run Stable Diffusion Models.
-    os.environ['STABILITY_API_KEY'] = 'your_api_key_here'
+    # Replace 'stability_api' with the actual API key for StabilityAI in order to run Stable Diffusion Models.
+    os.environ['STABILITY_API_KEY'] = 'stability_api'
     
     # Initialize image processing pipeline
     pipeline = ToolPipeline("configs/tools.yaml", auto_install=True)
