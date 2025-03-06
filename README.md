@@ -38,7 +38,7 @@ cd CoSTAR
 ```
 
 ### **2. Install Dependencies**  
-Ensure you have **Python 3.8+** and install dependencies:  
+Ensure you have **Python 3.8+** and install dependencies (most other dependencies are auto-installed when models are run):  
 ```bash
 pip install -r requirements.txt  
 ```
