@@ -1,6 +1,6 @@
-networkx
-Pillow
-numpy
-PyYAML
-openai
-argparse
+networkx==3.2.1
+pillow==11.1.0
+numpynumpy==1.23.5
+PyYAML==6.0.2
+openai==1.64.0
+argparse==1.4.0
