@@ -22,7 +22,7 @@ Try out **CoSTA*** online: **[Live Demo](https://storage.googleapis.com/costa-fr
 ## **Dataset**  
 We provide a **benchmark dataset** with **121 images** for testing CoSTA*, containing **image-only** and **text+image** tasks.  
 
-📂 **Dataset Download**: [Dataset.zip](https://huggingface.co/datasets/advaitgupta/CoSTAR)
+📂 **Dataset**: [Huggingface Dataset](https://huggingface.co/datasets/advaitgupta/CoSTAR)
 
 ---
 
