@@ -1,7 +1,7 @@
 # CoSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing  
 📌 *This repository is under construction. Some subtasks/tools are not fully supported yet.*  
 
-🔗 **[ArXiv Preprint](placeholder_link)**  
+🔗 **[ArXiv Preprint](https://arxiv.org/abs/2503.10613)**  
 
 ---
 
