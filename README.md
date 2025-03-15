@@ -154,10 +154,13 @@ CoSTAR/
 ## **Citation**  
 If you find this work useful, please cite our paper:
 ```bibtex
-@article{gupta2025costa,
-  title={CoSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing},
-  author={Gupta, Advait and Velaga, NandaKiran and Nguyen, Dang and Zhou, Tianyi},
-  journal={arXiv preprint},
-  year={2025}
+@misc{gupta2025costaastcostsensitivetoolpathagent,
+      title={CoSTA$\ast$: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing}, 
+      author={Advait Gupta and NandaKiran Velaga and Dang Nguyen and Tianyi Zhou},
+      year={2025},
+      eprint={2503.10613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.10613}, 
 }
 ```
