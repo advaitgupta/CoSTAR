@@ -188,8 +188,7 @@ Before you generate the tree you need to make sure that for every path possible 
 
     response = client.chat.completions.create(
         model="o1",
-        messages=messages,
-        max_tokens=2000
+        messages=messages
     )
     
     content = response.choices[0].message.content
