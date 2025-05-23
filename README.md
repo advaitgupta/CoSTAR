@@ -1,7 +1,4 @@
 # CoSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing  
-📌 *This repository is under construction. Some subtasks/tools are not fully supported yet.*  
-
-🔗 **[ArXiv Preprint](https://arxiv.org/abs/2503.10613)**  
 
 ---
 
@@ -22,7 +19,7 @@ Try out **CoSTA*** online: **[Live Demo](https://storage.googleapis.com/costa-fr
 ## **Dataset**  
 We provide a **benchmark dataset** with **121 images** for testing CoSTA*, containing **image-only** and **text+image** tasks.  
 
-📂 **Dataset**: [Huggingface Dataset](https://huggingface.co/datasets/advaitgupta/CoSTAR)
+📂 **Dataset**: [Dataset zip](https://storage.cloud.google.com/costa-dataset/Dataset.zip)
 
 ---
 
@@ -40,7 +37,7 @@ We provide a **benchmark dataset** with **121 images** for testing CoSTA*, conta
 ## **Installation**  
 ### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/tianyi-lab/CoSTAR.git  
+git clone <address> 
 cd CoSTAR  
 ```
 
@@ -148,19 +145,3 @@ CoSTAR/
 ├── tool_subgraph.py  
 ├── astar_search.py    
 ```  
-
----
-
-## **Citation**  
-If you find this work useful, please cite our paper:
-```bibtex
-@misc{gupta2025costaastcostsensitivetoolpathagent,
-      title={CoSTA$\ast$: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing}, 
-      author={Advait Gupta and NandaKiran Velaga and Dang Nguyen and Tianyi Zhou},
-      year={2025},
-      eprint={2503.10613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.10613}, 
-}
-```
