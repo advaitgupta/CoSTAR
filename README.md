@@ -1,14 +1,10 @@
 # CoSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing  
-📌 *This repository is under construction. Some subtasks/tools are not fully supported yet.*  
-
-🔗 **[ArXiv Preprint](https://arxiv.org/abs/2503.10613)**  
 
 ---
 
 ## **Introduction**  
 **CoSTA*** is a cost-sensitive toolpath agent designed to solve **multi-turn image editing** tasks efficiently. It integrates **Large Language Models (LLMs)** and **graph search algorithms** to dynamically select AI tools while balancing cost and quality. Unlike traditional **text-to-image** models (e.g., **Stable Diffusion, DALLE-3**), which struggle with complex image editing workflows, **CoSTA*** constructs an optimal **toolpath** using an **LLM-guided hierarchical planning strategy** and an **A*** search-based selection process.  
 
-![Pipeline](https://github.com/tianyi-lab/CoSTAR/blob/8d6b37ac4680d138a1704af924f6609cae518c47/main.png)
 
 This repository provides:  
 - The official **codebase** for **CoSTA***.  
@@ -21,8 +17,6 @@ Try out **CoSTA*** online: **[Live Demo](https://storage.googleapis.com/costa-fr
 
 ## **Dataset**  
 We provide a **benchmark dataset** with **121 images** for testing CoSTA*, containing **image-only** and **text+image** tasks.  
-
-📂 **Dataset**: [Huggingface Dataset](https://huggingface.co/datasets/advaitgupta/CoSTAR)
 
 ---
 
@@ -40,7 +34,7 @@ We provide a **benchmark dataset** with **121 images** for testing CoSTA*, conta
 ## **Installation**  
 ### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/tianyi-lab/CoSTAR.git  
+git clone 
 cd CoSTAR  
 ```
 
@@ -148,19 +142,3 @@ CoSTAR/
 ├── tool_subgraph.py  
 ├── astar_search.py    
 ```  
-
----
-
-## **Citation**  
-If you find this work useful, please cite our paper:
-```bibtex
-@misc{gupta2025costaastcostsensitivetoolpathagent,
-      title={CoSTA$\ast$: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing}, 
-      author={Advait Gupta and NandaKiran Velaga and Dang Nguyen and Tianyi Zhou},
-      year={2025},
-      eprint={2503.10613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.10613}, 
-}
-```
